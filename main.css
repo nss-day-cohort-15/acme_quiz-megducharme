@@ -1,31 +1,26 @@
-nav {
-  background-color: firebrick;
-  display: inline-block;
-  margin: 0;
-  padding:none;
-}
-
 nav li {
   display: inline-block;
   text-decoration: none;
   list-style: none;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
 nav h3 {
   display: inline-block;
-  color: #ffffb3;
-  margin:none;
 }
 
-nav img {
-  max-width: 10%;
-  display: inline-block;
+.mainContent {
+  text-align: center;
+  color: #ffa64d;
+}
+
+.dropdown {
+  margin:0 auto;
+  margin-top: 20px;
+  display: block;
 }
 
 body {
-  background-color: #ff751a;
-}
-
-.mainContainer {
-  max-width: 80%;
+  background-color: #990000;
 }

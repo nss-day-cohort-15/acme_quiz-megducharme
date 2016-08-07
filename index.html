@@ -2,24 +2,41 @@
 <html>
 <head>
   <title>ACME</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <div class="mainContainer">
-    <nav>
-      <img src="https://cdn3.iconfinder.com/data/icons/firework/512/rockets-512.png">
-      <h3>ACMExplosives</h3>
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+      <!-- Nav logo -->
+        <div class="navbar-header">
+          <img class="navbar-brand" src="https://cdn3.iconfinder.com/data/icons/firework/512/rockets-512.png">
+        <h3>ACMExplosives</h3>
+        </div>
+        <!-- Nav menu -->
+        <div class="nav navbar-nav">
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <h3>Let us help you find what you're looking for!</h3>
-    <h3>Select a Category</h3>
-      <select class=dropdown>
+  <!-- Instructions -->
+    <h4 class="mainContent">Let us help you find what you're looking for!</h4>
+
+  <!-- Dropdown -->
+    <h4 class="mainContent">Select a Category:</h4>
+      <select class="dropdown">
         <option value="fireworks">Fireworks</option>
         <option value="liquidexplosives">Liquid Explosives</option>
         <option value="nuclearexplosives">Nuclear Explosives</option>
         <option value="sugaralcohol">Sugar Alcohol Explosives</option>
       </select>
-  </div>
 
 <script type="text/javascript" src="quiz.js"></script>
 </body>
