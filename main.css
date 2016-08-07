@@ -1,0 +1,31 @@
+nav {
+  background-color: firebrick;
+  display: inline-block;
+  margin: 0;
+  padding:none;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav h3 {
+  display: inline-block;
+  color: #ffffb3;
+  margin:none;
+}
+
+nav img {
+  max-width: 10%;
+  display: inline-block;
+}
+
+body {
+  background-color: #ff751a;
+}
+
+.mainContainer {
+  max-width: 80%;
+}
