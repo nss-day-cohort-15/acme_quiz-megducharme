@@ -31,13 +31,23 @@
 
   <!-- Dropdown -->
     <h4 class="mainContent">Select a Category:</h4>
-      <select class="dropdown">
-        <option value="fireworks">Fireworks</option>
-        <option value="liquidexplosives">Liquid Explosives</option>
-        <option value="nuclearexplosives">Nuclear Explosives</option>
-        <option value="sugaralcohol">Sugar Alcohol Explosives</option>
+      <select id="categoryDropdown" class="dropdown">
+        <option value=0>Fireworks</option>
+        <option value=1>Liquid Explosives</option>
+        <option value=2>Nuclear Explosives</option>
+        <option value=3>Sugar Alcohol Explosives</option>
       </select>
 
+  <!-- Product Cards Will be Inserted Here -->
+
+    <div id="productCards">
+
+    </div>
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js""></script>
+<!-- <script type="text/javascript" src="load.js"></script>
+<script type="text/javascript" src="sortProducts.js"></script>
+<script type="text/javascript" src="writeToDOM.js"></script> -->
 <script type="text/javascript" src="quiz.js"></script>
 </body>
 </html>

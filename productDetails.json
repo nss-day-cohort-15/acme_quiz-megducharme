@@ -1,0 +1,76 @@
+{
+    "products": [{
+        "fireworks": {
+          "id": 0,
+          "type": 0,
+          "name": "Fairy Sparklers",
+          "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "firecrackers": {
+          "id": 1,
+          "type": 0,
+          "name": "Firecrackers",
+          "description": "A small explosive device primarily designed to produce a large amount of noise, especially in the form of a loud bang; any visual effect is incidental to this goal"
+        },
+        "roman candles" : {
+          "id": 2,
+          "type": 0,
+          "name": "Roman Candle",
+          "description": "A traditional type of firework that ejects one or more stars or exploding shells."
+        },
+          "astrolite" : {
+          "id": 3,
+          "type": 1,
+          "name": "Astrolite",
+          "description": "The Astrolite family consists of two compounds, Astrolite G and Astrolite A. Both are two-part liquid-state high explosive mixtures, composed of ammonium nitrate oxidizer and hydrazine rocket fuel."
+        },
+        "isopropyle nitrate" : {
+          "id": 4,
+          "type": 1,
+          "name": "Isopropyle Nitrate",
+          "description": "IPN is a low-sensitivity explosive, with a detonation velocity of approximately 5400 m/s."
+        },
+         "another kind of liquid explosive" : {
+          "id": 5,
+          "type": 1,
+          "name": "Isopropyle Nitrate",
+          "description": "It's dangerous. Really Dangerous."
+        },
+        "atomic bomb" : {
+          "id": 6,
+          "type": 2,
+          "name": "Atomic Bomb",
+          "description": "The enormous amount of nuclear energy that is released by this process produces a large amount of heat and electricity."
+        },
+        "dirty bomb" : {
+          "id": 7,
+          "type": 2,
+          "name": "Atomic Bomb",
+          "description": "Dirty bombs, also known as radiological weapons, are usually considered non-nuclear bombs that when detonated spread radioactive material."
+        },
+        "thermonuclear weapons" : {
+          "id": 8,
+          "type": 2,
+          "name": "Thermonuclear Weapons",
+          "description": "Thermonuclear weapons, often referred to as Hydrogen bombs or H-bombs, are nuclear weapons in which their extreme explosive powers are obtained through the process of nuclear fusion – the process of forming a heavier nucleus from two lighter ones."
+        },
+         "nitroglycerin" : {
+          "id": 9,
+          "type": 3,
+          "name": "Nytroglycerin",
+          "description": "Invented in 1847, nitroglycerin has been used as an active ingredient in the manufacture of explosives, mostly dynamite, and as such it is employed in the construction, demolition, and mining industries"
+        },
+        "thermonuclear weapons" : {
+          "id": 10,
+          "type": 3,
+          "name": "Atomic Bomb",
+          "description": "Thermonuclear weapons, often referred to as Hydrogen bombs or H-bombs, are nuclear weapons in which their extreme explosive powers are obtained through the process of nuclear fusion – the process of forming a heavier nucleus from two lighter ones."
+        },
+        "xylitol pentanitrate" : {
+          "id": 11,
+          "type": 3,
+          "name": "Xylitol pentanitrate",
+          "description": "A rarely used liquid explosive compound with extremely high viscosity formed by completely nitrating xylitol, a sugar alcohol compound with five carbon atoms."
+        }
+    }]
+}
