@@ -22,6 +22,7 @@ readFiles()
 function showData(data) {
     console.log(data)
   categories = data[0].categories
+  console.log(categories)
   types = data[1].types
   products = data[2].products[0]
     console.log(products)
@@ -54,12 +55,6 @@ function showData(data) {
         console.log(matchingProducts)
     }
   }
-
-function writeProductsToPage () {
-  if
-}
-
-
 })
 
 
