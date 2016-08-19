@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ACME</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+      <!-- Nav logo -->
+        <div class="navbar-header">
+          <img class="navbar-brand" src="https://cdn3.iconfinder.com/data/icons/firework/512/rockets-512.png">
+        <h3>ACMExplosives</h3>
+        </div>
+        <!-- Nav menu -->
+        <div class="nav navbar-nav">
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Instructions -->
+    <h4 class="mainContent">Let us help you find what you're looking for!</h4>
+
+  <!-- Dropdown -->
+    <h4 class="mainContent">Select a Category:</h4>
+      <select id="categoryDropdown" class="dropdown">
+        <option value=0>Fireworks</option>
+        <option value=1>Liquid Explosives</option>
+        <option value=2>Nuclear Explosives</option>
+        <option value=3>Sugar Alcohol Explosives</option>
+      </select>
+
+  <!-- Product Cards Will be Inserted Here -->
+
+    <div class = "row" id="productCards">
+
+    </div>
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js""></script>
+<script type="text/javascript" src="load.js"></script>
+<script type="text/javascript" src="sortProducts.js"></script>
+<script type="text/javascript" src="writeToDOM.js"></script>
+<!-- <script type="text/javascript" src="quiz.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+    "types": [{
+            "id": 0,
+            "category": 0,
+            "name": "personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "personal",
+            "description": "Firecrackers intended for recreational use to scare your siblings when they're least expecting it."
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "personal",
+            "description": "Roman Candles intended for recreational use during holiday celebrations becuase they're pretty."
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "name": "nasa",
+            "description": "Astrolite is used to astronauts in space!"
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "industrial",
+            "description": "Isopropyle Nitrate is powerful stuff, be careful."
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "name": "never",
+            "description": "Just don't buy this. We won't sell it to you anyway. "
+        },
+        {
+            "id": 6,
+            "category": 2,
+            "name": "ew",
+            "description": "This bomb has an interesting name."
+        },
+        {
+            "id": 7,
+            "category": 2,
+            "name": "industrial",
+            "description": "No clue what this is, but maybe it will help you with your project!"
+        },
+        {
+            "id": 8,
+            "category": 2,
+            "name": "dangerous",
+            "description": "Make sure you are wearing your safety equipment when using this!"
+        },
+        {
+            "id": 9,
+            "category": 3,
+            "name": "personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+        {
+            "id": 10,
+            "category": 3,
+            "name": "personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+        {
+            "id": 11,
+            "category": 3,
+            "name": "personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        }
+    ]
+}
